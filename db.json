@@ -1,0 +1,97 @@
+{
+    "smugglers": [
+        {
+            "id": 1,
+            "name": "Lando Calrissian",
+            "planet": "Socorro",
+            "species": "Human",
+            "img": "/assets/images/Lando.png",
+            "shipId": 1,
+            "planetId": 1
+        },
+        {
+            "id": 2,
+            "name": "Chewbacca",
+            "planet": "Kashyyyk",
+            "species": "Wookiee",
+            "img": "/assets/images/Chewie.png",
+            "shipId": 1,
+            "planetId": 2
+        },
+        {
+            "id": 3,
+            "name": "Mara Jade Skywalker",
+            "planet": "Coruscant",
+            "species": "Human",
+            "img": "/assets/images/MaraJade.png",
+            "shipId": 2,
+            "planetId": 3
+        }
+    ],
+    "ships": [
+        {
+            "id": 1,
+            "name": {
+                "en": "Millennium Falcon",
+                "es": "Halcón Milenario"
+            },
+            "speed":{
+                "en": "High",
+                "es": "Alta"
+            },
+            "size": {
+                "en": "Big",
+                "es": "Grande"
+            },
+            "img": "/assets/images/millenium_falcon.png"
+        },
+        {
+            "id": 2,
+            "name": {
+                "en": "Shrike",
+                "es": "Shrike"
+            },
+            "speed":{
+                "en": "High",
+                "es": "Alta"
+            },
+            "size": {
+                "en": "Little",
+                "es": "Pequeño"
+            },
+            "img": "/assets/images/shrike.png"
+        }
+    ], 
+    "planets": [
+        {
+            "id": 1,
+            "name": "Socorro",
+            "years": 123445,
+            "weather": {
+                "en": "Cold",
+                "es": "Frio"
+            },
+            "img": "/assets/images/socorro.png"
+        },
+        {
+            "id": 2,
+            "name": "Kashyyyk",
+            "years": 54617,
+            "weather": {
+                "en": "Average",
+                "es": "Promedio"
+            },
+            "img": "/assets/images/Kashyyyk.png"
+        },
+        {
+            "id": 3,
+            "name": "Coruscant",
+            "years": 287926,
+            "weather": {
+                "en": "Hot",
+                "es": "Caliente"
+            },
+            "img": "/assets/images/coruscant.png"
+        }
+    ]
+}
